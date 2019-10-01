@@ -37,7 +37,7 @@ switchport trunk native vlan 99
 no shutdown
 exit
 interface vlan 100
-ip address  72.16.4.221 255.255.255.224
+ip address 172.16.4.221 255.255.255.224
 description INTERFACE DE GERENCIAMENTO
 exit
 interface f0/1
